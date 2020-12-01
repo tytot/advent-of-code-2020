@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code-2020",
+  "version": "1.0.0",
+  "description": "My Advent of Code 2020 solutions in JavaScript",
+  "main": "reader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tytot/advent-of-code-2020.git"
+  },
+  "author": "Tyler Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tytot/advent-of-code-2020/issues"
+  },
+  "homepage": "https://github.com/tytot/advent-of-code-2020#readme"
+}
