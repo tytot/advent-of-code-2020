@@ -1,6 +1,8 @@
 const reader = require('../reader')
 
 reader.getInput('inputs/input1.txt').then((input) => {
+    input = input.map((line) => parseInt(line))
+
     // Part 1 O(N)
     let mem = {}
     for (const val of input) {
@@ -17,8 +19,7 @@ reader.getInput('inputs/input1.txt').then((input) => {
     for (const val1 of input) {
         mem[val1] = {}
         for (const val2 of input) {
-            if (val1 !== val2) 
-                mem[val1][val1 + val2] = val2
+            if (val1 !== val2) mem[val1][val1 + val2] = val2
         }
     }
     outer: for (const val of input) {

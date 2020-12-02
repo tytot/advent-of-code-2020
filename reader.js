@@ -11,7 +11,7 @@ exports.getInput = async function (path) {
 
     const input = []
     for await (const line of rl) {
-        input.push(parseInt(line))
+        input.push(line)
     }
     return input
 }
